@@ -1,0 +1,34 @@
+*{font-family: 'Roboto', sans-serif;}
+
+body{background-color: black;}
+
+.divcontainer{width: 500px;
+background-color: white;
+margin: auto;
+margin-top: 50px;
+padding-bottom: 5px;}
+
+.top{display:flex;
+    justify-content: space-between;
+    height: 50px;}
+
+    .top div{display: flex;
+        align-items: center;}
+
+.top i{font-size: 25px;
+margin: 15px;}
+
+.image img {width:500px;
+    max-height: 450px;
+object-fit: cover;}
+
+.icons{display:flex;
+justify-content: space-between;}
+
+.icons i{font-size: 25px;
+margin: 5px 0px 0px 15px;}
+
+.bookmark {margin-right: 15px;}
+
+.bottom p {font-size: 15px;
+    margin: 10px 15px 10px 15px;}
